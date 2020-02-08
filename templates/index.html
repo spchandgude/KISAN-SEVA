@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>KISAN SEVA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<center>
+  <div class="main_block">
+    <div class="header1">
+      <div class="header2">
+        <div class="smal_menu"> <a href="#">aboutus</a> <img src="images/hd_sbar.gif" alt="" width="1" height="11"/> <a href="#">sitemap</a> <img src="images/hd_sbar.gif" alt="" width="1" height="11"/> <a href="#">contactus</a> </div>
+       <!-- <a href="#"><img src="images/logo.gif" alt=" " width="295" height="64" class="logo" /></a> </div>-->
+    </div>
+    <div class="hd_menu"> <a href="#" style="margin-left:40px;">home</a> <img src="images/menu_blt.gif" alt=" " width="14" height="15"/> <a href="#">about us</a> <img src="images/menu_blt.gif" alt=" " width="14" height="15"/> <a href="#">company</a> <img src="images/menu_blt.gif" alt=" " width="14" height="15"/> <a href="#">solutions</a> <img src="images/menu_blt.gif" alt=" " width="14" height="15"/> <a href="#">support</a> <img src="images/menu_blt.gif" alt=" " width="14" height="15"/> <a href="#">contact us</a> </div>
+    <div class="center">
+      <div class="center1"> <img src="images/cp_our.gif" alt=" " width="156" height="22" class="cp_our"/> <img src="images/cp_img1.gif" alt=" " width="86" height="82" class="cp_img1"/> <span class="cp_text1"> We provide platform for farmers. <a href="#">Farmers can use this portal.</a> Farmers can come here and provide details according to there area, after that they will get predicted crops according to there area. Predicted crops will help farmers to increse there yield.  <br/>
+        <br/>
+        <form action="{{ url_for('predict')}}"method="post">
+          <input type="text" name="temperature" placeholder="Temperature" required="required" />
+            <input type="text" name="humidity" placeholder="Humidity" required="required" />
+        <input type="text" name="ph" placeholder="Ph" required="required" />
+        <input type="text" name="rainfall" placeholder="Rainfall" required="required" />
+    
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+        <br>
+        <br>
+        {{ prediction_text }}
+
+      <!--  You may conduct your financial operations in one of our branches. has employed the top security for various <a href="#">online transactions.</a> Though online banking fraud is widely prevalent. </span> <a href="#"><img src="images/cp_read.gif" alt=" " width="91" height="16" class="cp_read" /></a> <img src="images/cp_bar1.gif" alt=" " width="451" height="1" class="cp_bar1"/> <img src="images/cp_destination.gif" alt=" " width="200" height="20" class="cp_dest"/> <img src="images/cp_img2.gif" alt=" " width="79" height="76" class="cp_img2"/> <span class="cp_text1"> You may conduct your financial operations in one of our branches. has employed the top security for various <a href="#">online transactions.</a> Though online banking fraud is widely prevalent.  --> <br/>
+        <br/>
+       <!-- We provide home loans, business loans, agricultural loans, <a href="#">VA loans, FHA loans among others.</a> If you satisfy our various requirements concerning documents.You may conduct your financial operations in one of our branches. <br/>
+        <br/>
+       
+        
+
+
+        You may conduct your financial operations in one of our branches. </span> <a href="#"><img src="images/cp_read.gif" alt=" " width="91" height="16" class="cp_read"/></a> --> </div>
+       
+      <div class="right">
+        <div class="rp_block1"> <span style="float:left;"> <img src="images/rp_img1.gif" alt=" " width="35" height="35" class="rp_img1"/> <img src="images/rp_solution.gif" alt=" " width="145" height="16" class="rp_sol"/> </span> <span class="rp_list1"> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="crop_prediction.html">CROP PREDICTION</a>    <!--  <img src="images/rp_blt.gif" alt=" " width="3" height="3"/>   <a href="#">Markets and Investing</a> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="#">Company and Industry</a> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="#">Wealth Management</a> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="#">Banking Law</a> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="#">Arbitration Less</a> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="#">Income Tax</a> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="#">Sales Tax Charges</a> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="#">Mortgage</a> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="#">Credit Policy</a> <img src="images/rp_blt.gif" alt=" " width="3" height="3"/> <a href="#">Others Questions</a> --></span> </div>
+        <div class="rp_block2"> <span style="float:left;"> <img src="images/rp_img2.gif" alt=" " width="51" height="37" class="rp_img2"/> <img src="images/rp_login.gif" alt=" " width="151" height="23" class="rp_login"/> </span> <span class="cp_email">Email Id</span>
+          <input name="" type="text" class="rp_tbox1" />
+          <span style="float:left; width:249px;"> <span class="cp_pwd1">Password</span>
+          <input name="" type="text" class="rp_tbox2" />
+          <a href="#"><img src="images/rp_arrow.gif" alt=" " width="24" height="20" class="rp_arrow"/></a> </span> </div>
+        <div class="rp_block3"> <span style="float:left;"> <img src="images/rp_img3.gif" alt=" " width="46" height="40" class="rp_img3"/> <img src="images/rp_client.gif" alt=" " width="141" height="20" class="rp_client"/> </span> <span class="rp_text1"> &quot;The Ultimate goal of farming is not the growing of crops, but the cultivation and perfection of human beings.&quot; </span> <span class="rp_author">- Franklin D. Roosvelt</span> </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="fp_menu"> <a href="#" style="margin-left:100px;">home</a> <a href="#">about us</a> <a href="#">company</a> <a href="#">solutions</a> <a href="#">support</a> <a href="#">contact us</a> </div>
+      <span class="fp_copy" style="margin-left:100px;">2020 Copyright, All rights reserved. <a href="http://shubhchand.wordpress.com"></a> designed by TEAM CODEROIDS</span>  </div>
+  </div>
+</center>
+</body>
+</html>

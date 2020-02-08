@@ -1,0 +1,104 @@
+/* CSS Document */
+
+body{padding:0; margin:0; font:12px/15px Georgia, "Times New Roman", Times, serif; background-color:#DFDFC5;}
+
+img{float:left; border:0;}
+
+.main_block{width:736px; text-align:left;}
+
+input{margin:0; padding:0;}
+
+.fltr{float:right;}
+
+.header1,.header2{float:left; width:736px; height:267px; background:url(header1.jpg) no-repeat left;}
+
+.header2{float:left; background:url(header2.jpg) no-repeat right;}
+
+.smal_menu{float:left; display:inline; width:210px; margin-left:520px;}
+
+.smal_menu a{float:left; color:#FFF; margin:3px 9px 0 8px; text-decoration:none;}
+
+.smal_menu img{margin-top:5px;}
+
+.logo{margin:172px 0 0 414px;}
+
+.hd_menu{float:left; width:736px; background:url(menu_tile.gif) repeat-x; padding-bottom:25px;}
+
+.hd_menu a{float:left; color:#FFF; margin:21px 17px 0 17px; font:bold 15px Georgia, "Times New Roman", Times, serif; font-style:italic; text-decoration:none;} 
+
+.hd_menu img{margin-top:24px;}
+
+.center{float:left; width:736px;}
+
+.center1{float:left; width:487px;}
+
+.right{float:left; width:249px;}
+
+.cp_our{margin:27px 270px 0 10px;}
+
+.cp_img1{margin:37px 0 0 15px;}
+
+.cp_text1{float:left; width:325px; margin:37px 0 0 31px; color:#5F5F5F;}
+
+.cp_text1 a{color:#BD2E12; text-decoration:none;}
+
+.cp_read{float:left; margin:7px 0 0 128px;}
+
+.cp_bar1{margin:18px 0 0 0px;}
+
+.cp_dest{margin:14px 270px 0 10px;}
+
+.cp_img2{float:left; margin:30px 0 0 15px;}
+
+.rp_block1{float:left; display:inline; width:249px; margin:5px 0 0 0; background-color:#C2C2A7; padding-bottom:18px;}
+
+.rp_img1{margin:18px 0 0 18px;}
+
+.rp_sol{margin:32px 0 0 11px;}
+
+.rp_list1{float:left; width:175px; padding-top:15px;}
+
+.rp_list1 a{float:left; color:#FFF; font:12px/20px Georgia, "Times New Roman", Times, serif; width:135px;}
+
+.rp_list1 img{margin:10px 7px 0 26px;}
+
+.rp_block2{float:left; display:inline; width:249px; margin:10px 0 0 0; background-color:#7F7F89; padding-bottom:20px;}
+
+.rp_img2{margin:10px 0 0 18px;}
+
+.rp_login{margin:24px 0 0 9px;}
+
+.cp_email{float:left; color:#FFF; margin:21px 0 0 26px;}
+
+.rp_tbox1{margin:20px 0 0 10px; border:1px solid #A7A7AE; width:111px; height:18px;}
+
+.cp_pwd1{float:left; color:#FFF; margin:12px 0 0 26px;}
+
+.rp_tbox2{float:left; margin:10px 0 0 7px; border:1px solid #A7A7AE; width:111px; height:18px;}
+
+.rp_arrow{margin:10px 0 0 9px;}
+
+.rp_block3{float:left; display:inline; width:249px; margin:11px 0 0 0; background-color:#C4C4A3; padding-bottom:17px;}
+
+.rp_img3{margin:7px 0 0 22px;}
+
+.rp_client{margin:27px 0 0 7px;}
+
+.rp_text1{float:left; width:210px; margin:21px 0 0 23px; color:#53534E;}
+
+.rp_author{float:left; margin:13px 0 0 141px; color:#980905;}
+
+.footer{float:left; display:inline; width:736px; margin-top:6px; background:url(fp_tile.gif) repeat-x; padding-bottom:5px;}
+
+.fp_menu{float:left; width:736px; background:url(menu_tile.gif) #C8140F repeat-x;}
+
+.fp_menu a{float:left; color:#FFF; margin:15px 17px 0 17px; font:bold 15px Georgia, "Times New Roman", Times, serif; font-style:italic; text-decoration:none;} 
+
+.fp_copy{float:left; font:10px Georgia, "Times New Roman", Times, serif; color:#ECB8B7; margin:10px 0 0 147px;}
+
+.fp_copy a{ font:10px Georgia, "Times New Roman", Times, serif; color:#ECB8B7; }
+
+.fp_img1{margin:6px 0 0 12px;}
+
+.fp_img2{margin:6px 0 0 6px;}
+
