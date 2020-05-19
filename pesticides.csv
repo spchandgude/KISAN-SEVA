@@ -1,0 +1,158 @@
+﻿Crop,Diseases,Pesticide
+WHEAT,Barley Yellow Dwarf,Bulldock
+WHEAT,Crown and Root Rot,Banol
+WHEAT,Leaf Rust,Stature 
+WHEAT,Fusarium Head Blight,streptomycin
+WHEAT,Tan spot,sulfur spray
+MUNG BEAN,Powdery mildew,Alude 
+MUNG BEAN,Tan spot,sulfur spray
+MUNG BEAN,Halo blight,streptomycin
+MUNG BEAN,Charcoal rot,Aliette
+MUNG BEAN,Fusarium wilt,Alude 
+MUNG BEAN,Gummy pod,Bordeaux mixture
+MUNG BEAN,Puffy pod disorder,Bordeaux mixture
+TEA,Algal leaf spot,sulfur spray
+TEA,Blister blight,streptomycin
+TEA,Camellia dieback and canker,chitozan oligosaccharide organic liquid
+TEA,Camellia flower blight,streptomycin
+TEA,Horse hair blight,streptomycin
+TEA,Poria root disease,diuretic
+TEA,Root rot,Aliette
+MILLET,Blast,tricyclazole 
+MILLET,Cercospora leaf spot,sulfur spray
+MILLET,Downy mildew ,Alude 
+MILLET,Rust ,Stature 
+MILLET,Seedling and leaf blight,streptomycin
+MAIZE,Bacterial Stalk Rot,Aliette
+MAIZE,Black Bundle Disease and Late Wilt,Fungo Flo
+MAIZE,Charcoal-Rot,Aliette
+MAIZE,Common Rust,Stature 
+MAIZE, Downy Mildews,Alude 
+LENTIL,Stemphylium Blight,streptomycin
+LENTIL,Sclerotinia White Mould,Bonide Liquid Copper Fungicide
+LENTIL,Botrytis Grey Mould,Bonide Liquid Copper Fungicide
+LENTIL,Anthracnose,chlorothalonil 
+LENTIL,Ascochyta Blight,streptomycin
+JUTE,Blight,streptomycin
+JUTE,Stem rot,Aliette
+JUTE,Root rot,Aliette
+JUTE,Canker,chitozan oligosaccharide organic liquid
+COFFEE,Bacterial blight,streptomycin
+COFFEE,Cercospora leaf spot,sulfur spray
+COFFEE,Coffee berry disease,prochloraz
+COFFEE,Coffee leaf rust,Stature 
+COTTON,Alternaria leaf spot,sulfur spray
+COTTON,Asochyta blight,streptomycin
+COTTON,Cercospora leaf spot ,sulfur spray
+COTTON,Fusarium wilt,Alude 
+COTTON,Target spot ,sulfur spray
+COTTON,Bacterial blight,streptomycin
+GROUND NUT,Alternaria leaf spot,sulfur spray
+GROUND NUT,Collar rot ,streptomycin
+GROUND NUT,wilt,Alude 
+GROUND NUT,Early and late leaf spot,sulfur spray
+GROUND NUT,Groundnut Rust,Stature 
+GROUND NUT,Peanut stem and bud necrosis,benomyl
+GROUND NUT,Root-knot nematodes,Zaena Nemato Controller
+GROUND NUT,Stem rot,Revere
+PEAS,Aphanomyces root rot ,Revere
+PEAS,Ascochyta disease,chlorothalonil
+PEAS,Brown spot ,sulfur spray
+PEAS,Downy mildew ,Alude 
+PEAS,Fusarium root rot ,Revere
+PEAS,Gray mold (Botrytis mold) ,Alude 
+PEAS,Powdery mildew ,Alude 
+PEAS,Rhizoctonia seedling blight,streptomycin
+POMEGRANATE,Cercospora fruit spot,sulfur spray
+POMEGRANATE,Heart rot (Black heart),Subdue MAXX
+WATERMELON,Anthracnose,chlorothalonil 
+WATERMELON,Downy Mildew,Alude 
+WATERMELON,Fusarium Wilt,Alude 
+WATERMELON,Gummy Stem Blight,streptomycin
+WATERMELON,Root-Knot Nematode,Zaena Nemato Controller
+PAPAYA,Anthracnose and charcoal spot,chlorothalonil 
+PAPAYA,Black rot,Truban
+PAPAYA,Black spot,sulfur spray
+PAPAYA,Cercospora black spot,sulfur spray
+PAPAYA,Powdery mildew,Alude 
+PAPAYA,Bacterial canker and decline,chitozan oligosaccharide organic liquid
+PAPAYA,Internal yellowing ,ROM - Trichoderma
+PAPAYA,Bunchy top,ROM - Trichoderma
+PAPAYA,Papaya ringspot,Rimox
+PAPAYA,Phytophthora fruit rot,Truban
+ORANGE,Sour rot,Aliette
+ORANGE,Sweet orange scab,fungicide
+ORANGE,Thread blight,streptomycin
+ORANGE,Trichoderma rot,Aliette
+MUSKMELON,POWDERY MILDEW,Alude 
+MUSKMELON,MONOSPORASCUS ROOT ROT,Aliette
+MUSKMELON,ROOT-KNOT NEMATODES,Zaena Nemato Controller
+MUSKMELON,CUCURBIT YELLOW STUNTING DISORDER,ROM - Trichoderma
+MUSKMELON,CUCUMBER GREEN MOTTLE MOSAIC,Thyla-P
+MANGO,Algal leaf spot ,sulfur spray
+MANGO,Phoma blight,streptomycin
+MANGO,Pink disease,BIO -C
+MANGO,Powdery mildew,Alude 
+MANGO,Sooty mold ,Alude 
+MANGO,Bacterial black spot,sulfur spray
+APPLE,Apple scab,fungicide
+APPLE,Black rot,Banol
+APPLE,Cedar apple rust,Stature 
+APPLE,Flyspeck,captan
+APPLE,Powdery mildew,Alude 
+APPLE,Sooty blotch and flyspeck,captan
+GRAPES,Phylloxera,Alude 
+GRAPES,Downy Mildew,Alude 
+GRAPES,Powdery Mildew,Alude 
+GRAPES,Grey Mold,Alude 
+GRAPES,Black Rot,Banol
+GRAPES,Vine Trunk Diseases,Trichoderma 
+BANANA,Anthracnose,chlorothalonil 
+BANANA,Cigar End Tip Rot,Truban
+BANANA,Crown Rot,Banol
+BANANA,Stem-end Rot,Banol
+BANANA,Pseudostem Heart Rot,Subdue MAXX
+BANANA,Head Rot,Banol
+CHICK PEAS,Didymella rabiei,Chlorothalonil 
+CHICK PEAS,Fusarium wilt,Alude 
+CHICK PEAS,Botrytis cinerea,Bonide Liquid Copper Fungicide
+CHICK PEAS,Collar rot,Banol
+CHICK PEAS,Root rot,Banol
+CHICK PEAS,Pythium,Truban
+PIGEON PEAS,Alternaria blight,streptomycin
+PIGEON PEAS,Anthracnose,chlorothalonil 
+PIGEON PEAS,Cercospora leaf spot,sulfur spray
+PIGEON PEAS,White mold,Alude 
+BLACK GRAM,Root rot,Banol
+BLACK GRAM,Damping off,Mycostop 
+BLACK GRAM,Blight,streptomycin
+ADZUKI BEANS,stem rot,Aliette
+KIDNEY BEANS,pods,Bordeaux mixture
+KIDNEY BEANS,spot,sulfur spray
+RUBBER,Leaf bight,streptomycin
+BLACK GRAM,Canker,chitozan oligosaccharide organic liquid
+COCONUT,Bud rot and nutfall,Banol
+COCONUT,Ganoderma butt rot,Banol
+COCONUT,Gray leaf blight,streptomycin
+COCONUT,Lethal bole rot,Banol
+COCONUT,Stem bleeding disease,benomyl
+TOBACCO,Damping off,Mycostop 
+TOBACCO,Leaf bight,Terramycin
+TOBACCO,Rhizoctonia leaf spot,sulfur spray
+TOBACCO,Fusarium wilt,Alude 
+TOBACCO,Tobacco mosaic disease,Thyla-P
+SUGARCANE,Eye spot,V Kure
+SUGARCANE,Pineapple disease,organomercury fungicide
+SUGARCANE,Red rot,Banol
+SUGARCANE,Sugarcane smut disease,pinepropiconazole
+MOTH BEANS,Alternaria leaf spot,sulfur spray
+MOTH BEANS,Anthracnose,chlorothalonil 
+MOTH BEANS,Bean rust,Stature 
+MOTH BEANS,Black root rot,Banol
+MOTH BEANS,Fusarium root rot ,Banol
+MOTH BEANS,White mold,Alude 
+MOTH BEANS,Bacterial blight,streptomycin
+MOTH BEANS,Bacterial brown spot,sulfur spray
+MOTH BEANS,Halo blight,streptomycin
+MOTH BEANS,Damping-off,Mycostop 
+MOTH BEANS,Mosaic ,Thyla-P
