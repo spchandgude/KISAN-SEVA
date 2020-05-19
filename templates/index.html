@@ -3,11 +3,18 @@
 <head>
 <title>KISAN SEVA</title>
 
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <center>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <div class="main_block">
     <div class="header1">
       <div class="header2">
@@ -18,6 +25,8 @@
     <div class="center">
       <div class="center1"> <img src="images/cp_our.gif" alt=" " width="156" height="22" class="cp_our"/> <img src="images/cp_img1.gif" alt=" " width="86" height="82" class="cp_img1"/> <span class="cp_text1"> We provide platform for farmers. <a href="#">Farmers can use this portal.</a> Farmers can come here and provide details according to there area, after that they will get predicted crops according to there area. Predicted crops will help farmers to increse there yield.  <br/>
         <br/>
+        
+        <p> Enter fields mentioned below</p>
         <form action="{{ url_for('predict')}}"method="post">
           <input type="text" name="temperature" placeholder="Temperature" required="required" />
             <input type="text" name="humidity" placeholder="Humidity" required="required" />
@@ -28,13 +37,15 @@
         </form>
         <br/>
         <br/>
-        <br/>
+        
         
         <form action="{{ url_for('banks')}}"method="post">
           <button type="submit" class="btn btn-primary btn-block btn-large">Banks for loans</button>
   </form>
         <br>
         <br>
+
+        
         {% autoescape false %}
     {{prediction_text}}
 {% endautoescape %}
